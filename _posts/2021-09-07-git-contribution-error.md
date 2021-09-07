@@ -45,43 +45,19 @@ last_modified_at: 2021-09-07
 
   
 
-## 해결방법 ***<u>***
+## 해결방법
 
 ### ***🔥 주의🔥 절대 협업 중인 프로젝트에는 사용하지 말 것 </u>*** 
 
 ```shell
-git filter-branch --env-filter 
-
-' 
+git filter-branch --env-filter ' 
 NEW_NAME="본인이름"
-NEW_EMAIL="본인이메일주소"
-
+NEW_EMAIL="이메일@gmail.com"
+ 
 export GIT_AUTHOR_NAME=$NEW_NAME
 export GIT_COMMITTER_NAME=$NEW_NAME
 export GIT_AUTHOR_EMAIL=$NEW_EMAIL
 export GIT_COMMITTER_EMAIL=$NEW_EMAIL
-'
-```
-
-```shell
-git filter-branch --env-filter 
-
-'
-WRONG_EMAIL="잘못적은이메일주소"
-NEW_NAME="본인이름"
-NEW_EMAIL="본인이메일주소"
-
-if [ "$GIT_COMMITTER_EMAIL" = "$WRONG_EMAIL" ]
-then
-  export GIT_COMMITTER_NAME="$NEW_NAME"
-  export GIT_COMMITTER_EMAIL="$NEW_EMAIL"
-fi
-
-if [ "$GIT_AUTHOR_EMAIL" = "$WRONG_EMAIL" ]
-then
-  export GIT_AUTHOR_NAME="$NEW_NAME"
-  export GIT_AUTHOR_EMAIL="$NEW_EMAIL"
-fi
 '
 ```
 
