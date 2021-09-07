@@ -31,13 +31,13 @@ last_modified_at: 2021-09-07
 
   대부분 이 이유 때문이다. 나 같은 경우는 내 PC의 git 설정에서 email 주소가 전부 빠져있었다. 5월부터 헛짓거리 한거지 뭐..
 
-  <img src="/Users/jinull/hyeok7777/_posts/images/image-2021-09-07-20.18.29.png" alt="image-2021-09-07-20.18.29" style="zoom:50%;" align="center"/>
+  <img src="/Users/jinull/Library/Application Support/typora-user-images/image-20210907212035886.png" alt="image-20210907212035886" style="zoom:33%;" />
 
 
 
 - 추후에는 이런일이 없도록 아래 명령어를 통해 github와 동일하게 이메일을 먼저 바꿔준다.
 
-  ```null
+  ```shell
   git config user.email 바꿀이메일주소
   ```
 
