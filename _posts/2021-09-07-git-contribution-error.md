@@ -19,7 +19,7 @@ last_modified_at: 2021-09-07
 
 ## 어라 이게 뭐지?
 
-![image-20210907201132863](/Users/jinull/hyeok7777/_posts/images/image-20210907201132863.png)
+<img alt="image-20210907201132863" src="https://user-images.githubusercontent.com/19897864/132344869-b1a32cdc-72da-49fd-9fc5-ae0c24dc7009.png">
 
  Github에는 repository 메인 페이지에 contribution 그래프가 있다. 개발자의 삶을 열심히 살다보면 회색이었던 그래프들이 초록색으로 바뀌는 것을 볼 수 있다. 보통 잔디를 채운다고 하는데 code rivew, commit, pull request 와 같은 activity들을 하면 그래프가 초록색으로 바뀐다. 잔디가 심어지면 심어질 수록 뿌듯함을 느낄 수 있다. 그런데 종종 commit을 날리고 push request를 해도 그래프가 채워지지 않는 경우가 있다. 
 
@@ -29,9 +29,11 @@ last_modified_at: 2021-09-07
 
 - ***commit 할 때 email 주소가 github 계정의 email 주소와 같아야 한다.***
 
-  대부분 이 이유 때문이다. 나 같은 경우는 내 PC의 git 설정에서 email 주소가 전부 빠져있었다. 5월부터 헛짓거리 한거지 뭐..
+  대부분 이 이유 때문이다. 나 같은 경우는 내 PC의 git 설정에서 email 주소가 전부 빠져있었다. 
 
-  <img src="/Users/jinull/Library/Application Support/typora-user-images/image-20210907212035886.png" alt="image-20210907212035886" style="zoom:33%;" />
+  그동안 헛짓거리 한거지 뭐..
+  
+  <img alt="image-2021-09-07-20 18 29" src="https://user-images.githubusercontent.com/19897864/132344916-60e01f4b-5afa-45a2-b49f-6de6b67b07c9.png" align="center" style="zoom:50%;" >
 
 
 
