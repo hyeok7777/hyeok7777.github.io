@@ -16,7 +16,7 @@ minimal_mistakes_skin    : "air" # "air", "aqua", "contrast", "dark", "dirt", "n
 
 # Site Settings
 locale                   : "en-US"
-title                    : "맨날 공부하는 블로그"
+title                    : "맨날 까먹어서 맨날 공부함"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "지널"
@@ -124,7 +124,7 @@ author:
       url: "https://github.com/hyeok7777"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      #url: "https://instagram.com/5jinull2"
+      url: "https://instagram.com/5jinull2"
 
 # Site Footer
 footer:
