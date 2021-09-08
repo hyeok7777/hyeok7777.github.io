@@ -33,9 +33,7 @@ last_modified_at: 2021-09-07
 
   그동안 헛짓거리 한거지 뭐..
   
-  <img alt="image-2021-09-07-20 18 29" src="https://user-images.githubusercontent.com/19897864/132344916-60e01f4b-5afa-45a2-b49f-6de6b67b07c9.png" align="center" style="zoom:50%;" >
-
-
+  <center><img alt="image-2021-09-07-20 18 29" src="https://user-images.githubusercontent.com/19897864/132344916-60e01f4b-5afa-45a2-b49f-6de6b67b07c9.png" align="center" style="zoom:50%;" />
 
 - 추후에는 이런일이 없도록 아래 명령어를 통해 github와 동일하게 이메일을 먼저 바꿔준다.
 
